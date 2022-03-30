@@ -1,0 +1,38 @@
+.first {
+	position: relative;
+	display: block;
+}
+
+.first:before {
+	content: '';
+	display: block;
+position: absolute;
+top: -7px;
+left: 140px;
+right: 1150px;
+bottom: -165px;	
+}
+
+
+
+.one {  
+	position: relative;
+	left: 140px;
+
+}
+.two {  position: relative;
+	left: 140px;
+	background-image: url ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-S1mzxuwjGpuAxhWSY2npuunjX3D8XS7VA&usqp=CAU");
+}
+
+.text {
+	position: absolute;
+	top: 0.5%;
+	left: 0.3%;
+
+}
+
+a {
+	color: green;
+	font-weight: bold;
+}
